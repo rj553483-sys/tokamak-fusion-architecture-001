@@ -1,0 +1,44 @@
+{
+  "manuscript_id": "Fusion-Arch-001",
+  "paper_title": "System Architecture and Multi-Physics Design of a Compact High-Field Tokamak Fusion Reactor",
+  "target_journal": "Fusion Engineering and Design",
+  "publishing_model": "Traditional Subscription (No-Fee)",
+  "author_orcid": "0009-0009-7084-6523",
+  "system_convergence_status": "CONVERGED",
+  "max_residual_error_percent": 0.015,
+  "roache_gci_percent": 0.42,
+  "reactor_core_parameters": {
+    "R0_m": 3.3,
+    "a_m": 1.1,
+    "B0_T": 12.2,
+    "Ip_MA": 15.4557,
+    "plasma_volume_m3": 145.81,
+    "P_fusion_MW": 550.0,
+    "P_alpha_MW": 110.0,
+    "P_neutron_MW": 440.0,
+    "Q_gain": 11.0,
+    "P_div_peak_MW_m2": 7.92,
+    "q_dryout_limit_MW_m2": 22.5,
+    "divertor_margin_ok": true,
+    "TBR": 1.18,
+    "P_elec_gross_MW": 307.12,
+    "P_elec_net_MW": 222.12,
+    "REBCO_energy_density_MJ_m3": 59.22,
+    "Tsai_Wu_FI": 0.42105,
+    "Tsai_Wu_FOS": 1.5411083167132589,
+    "structural_integrity_ok": true
+  },
+  "mhd_stability_limits": {
+    "Taylor_number_Ta": 38.5,
+    "Ta_critical_limit": 45.8,
+    "Froude_number_Fr": 1.42,
+    "Hartmann_number_Ha": 10000,
+    "Shercliff_jet_velocity_ratio": 15.0
+  },
+  "structural_mechanics": {
+    "Inconel_718_keyway_shear_stress_MPa": 120.0,
+    "Tsai_Wu_failure_index": 0.42105,
+    "factor_of_safety": 1.5411083167132589,
+    "status": "SAFE"
+  }
+}

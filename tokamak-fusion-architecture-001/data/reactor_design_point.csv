@@ -1,0 +1,16 @@
+Parameter,Value,Unit,Domain
+Major Radius R0,3.3,m,Core Magnetics
+Minor Radius a,1.1,m,Core Magnetics
+Toroidal Field B0,12.2,T,Core Magnetics
+Plasma Current Ip,15.4557,MA,Core Magnetics
+Elongation kappa,1.85,-,Core Magnetics
+Safety Factor q95,3.2,-,Core Magnetics
+REBCO Magnetic Energy Density,59.22,MJ/m^3,HTS Magnets
+Peak Divertor Heat Flux,7.92,MW/m^2,PFC Hydrodynamics
+CPS Dryout Heat Flux Limit,22.5,MW/m^2,PFC Hydrodynamics
+Fusion Power Output,550.0,MW,Power Balance
+Fusion Gain Q,11.0,-,Power Balance
+Net Electric Power,222.12,MW,Power Balance
+Tritium Breeding Ratio (TBR),1.18,-,DCLL Blanket
+Hartmann Number Ha,10000.0,-,Blanket MHD
+Tsai-Wu Failure Index FI,0.42105,-,Structural Yield

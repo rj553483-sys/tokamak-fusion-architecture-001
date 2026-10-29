@@ -1,0 +1,28 @@
+name: Tokamak System Architecture Verification CI/CD
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  verify-system-architecture:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.12"
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install numpy scipy pandas matplotlib
+
+    - name: Run Tokamak System Architecture Verification Test Suite
+      run: |
+        python src/reactor_system_model.py
